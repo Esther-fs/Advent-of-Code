@@ -4,4 +4,4 @@ Dias que forman parte de la entrega:
   Día 11 (estructura tipo arbol)
   Día 6 (Programacion dinamica)
 
-Faltan Arboles y Tablas Hash
+Faltan Grafos y Tablas Hash
