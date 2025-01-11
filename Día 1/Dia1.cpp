@@ -38,11 +38,11 @@ int main() {
         cin >> right[i];
     }
 
-    // Sort both lists
+    // Ordena ambas listas
     sort(left.begin(), left.end());
     sort(right.begin(), right.end());
 
-    // Calculate the total distance using divide and conquer
+    // Calcula la distancia total
     int totalDistance = calculateDistance(left, right, 0, n - 1);
 
     cout << " Distancia total " << totalDistance << endl;
