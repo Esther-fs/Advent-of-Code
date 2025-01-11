@@ -5,7 +5,7 @@ Juan Palou de Comasema Jaume
 
 
 # Advent-of-Code Dias que pertenecen a la entrega:
-  Día 1 (Divide y venceras)
+  Día 1 
   Día 5
   Día 6
   Día 11
