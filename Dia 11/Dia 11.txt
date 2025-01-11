@@ -1,0 +1,8 @@
+Dia 11
+
+Se escogió este problema principalmente por su claro requerimiento de uso del diagrama árbol, dicho esto, el método usado es la estructura tipo árbol.
+
+El problema se aborde de la siguiente manera:
+. SE coge de manera individual cada valor del vector dado y se inserta en un nodo tipo árbol, luego este mismo es traspasado a una función que generaría sus siguientes números según 
+las normas dadas en el problema teniendo que el nuevo numero se insertara inicialmente a la izquierda, de esta manera se repetiría esta acción hasta que se haya llegado el numero máximo de interacciones. 
+Después generar el árbol una nueva función cuenta el numero final de rocas dadas teniendo como requisito que sus valores izquierdos y derechos estén vacíos, luego se recogevestos valores y se insertan a un vector para ser mostrado al final, (NO se mostraría por que es demasiado largo para que sea necesario). Luego se repite este proceso con el siguiente valor del vector y sumarlo a la variable de numero de rocas. 
