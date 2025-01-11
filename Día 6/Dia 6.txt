@@ -1,0 +1,5 @@
+Dia 6
+
+Se escogió este problema por su semejanza al antiguo problema hecho el año pasado del romba.
+
+Este problema se ejecuta a partir de la programación dinámica, este problema se resume en una función que busca y guarda el valor posición del guardia y luego a partir de este punto se inicia la otra función que mueve el guardia hacia delante hasta que se choca con un objeto que se gira a la derecha, después de cada acción repite la acción y si no se encuentra fuera continua con lo suyo y si sale termina la función dando su valor de movimiento, de esta manera el programa terminaría dando el valor mas largo producido. 
