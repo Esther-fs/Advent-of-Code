@@ -7,8 +7,6 @@
 #include <sstream>
 
 
-
-
 using namespace std;
 
 struct Node { //estructura de nodo
