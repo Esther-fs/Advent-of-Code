@@ -1,4 +1,3 @@
-
 Día_5 : Reglas de Precedencia con Grafos
 Elección del Problema
 Este problema aborda la validación y ordenación de listas según un conjunto de reglas de precedencia. Las listas que no cumplen las reglas deben reordenarse para ajustarse a las restricciones, y el elemento central de las listas reordenadas se suma a un acumulador. Este enfoque tiene aplicaciones prácticas como:
