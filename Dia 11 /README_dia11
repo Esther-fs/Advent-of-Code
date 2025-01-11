@@ -1,8 +1,13 @@
-Dia 11
+Elección del problema:
+Se ha elegido este problema porque involucra recorrer un laberinto de manera eficiente, marcando las posiciones visitadas y evitando recorrer varias veces las mismas áreas. Es útil para problemas como la navegación en mapas o la búsqueda de caminos.
 
-Se escogió este problema principalmente por su claro requerimiento de uso del diagrama árbol, dicho esto, el método usado es la estructura tipo árbol.
+Técnicas y estructuras de datos empleadas:
+Búsqueda en Anchura (BFS): Para recorrer el laberinto de manera ordenada, asegurando que encontramos el camino más corto.
+Tabla Hash: Para almacenar las posiciones visitadas y evitar recorrer las mismas celdas múltiples veces, mejorando la eficiencia.
 
-El problema se aborde de la siguiente manera:
-. SE coge de manera individual cada valor del vector dado y se inserta en un nodo tipo árbol, luego este mismo es traspasado a una función que generaría sus siguientes números según 
-las normas dadas en el problema teniendo que el nuevo numero se insertara inicialmente a la izquierda, de esta manera se repetiría esta acción hasta que se haya llegado el numero máximo de interacciones. 
-Después generar el árbol una nueva función cuenta el numero final de rocas dadas teniendo como requisito que sus valores izquierdos y derechos estén vacíos, luego se recogevestos valores y se insertan a un vector para ser mostrado al final, (NO se mostraría por que es demasiado largo para que sea necesario). Luego se repite este proceso con el siguiente valor del vector y sumarlo a la variable de numero de rocas. 
+Enfoque de la solución:
+Se lee el laberinto desde un archivo de entrada.
+Se localiza la posición inicial del recorrido.
+Usando BFS, se exploran las posiciones adyacentes y se marcan las celdas visitadas en el mapa.
+Se almacena el estado de las celdas visitadas en una tabla hash para evitar retrocesos.
+Al final, se muestra el camino recorrido y el número total de movimientos realizados.
