@@ -1,7 +1,13 @@
 # Advent-of-Code
-Dias que forman parte de la entrega:
-  Día 1 o 5 (Divide y venceras)
-  Día 11 (estructura tipo arbol)
-  Día 6 (Programacion dinamica)
+Dafne Alexandra Ceballos Ospina 
+Esther Ferriols Sobrino
+Juan Palou de Comasema Jaume 
 
-Faltan Grafos y Tablas Hash
+
+# Advent-of-Code Dias que pertenecen a la entrega:
+  Día 1 (Divide y venceras)
+  Día 5
+  Día 6
+  Día 11
+  Día 13
+
