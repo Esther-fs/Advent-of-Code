@@ -1,31 +1,24 @@
 Elección del Problema
-El problema seleccionado se centra en calcular la distancia total entre dos listas de números, tras ordenarlas y emparejarlas en orden ascendente. Este tipo de problema es relevante porque refleja situaciones del mundo real en las que se busca minimizar diferencias o distancias, como en logística, emparejamiento de tareas, o algoritmos de asignación. Además, el uso de la técnica de "Divide y Vencerás" permite abordar el problema de manera eficiente, dividiendo el trabajo en partes más pequeñas.
+Se ha elegido este problema porque busca calcular la distancia total entre dos listas de números tras ordenarlas y emparejarlas en orden ascendente. Este tipo de problema es útil en situaciones del mundo real como en logística, emparejamiento de tareas o algoritmos de asignación, donde se busca minimizar las diferencias o distancias. La técnica de "Divide y Vencerás" se emplea para resolverlo de manera eficiente, dividiendo el trabajo en subproblemas más pequeños.
 
 Técnica y Estructura de Datos Empleadas
 Técnica: Divide y Vencerás
-La solución implementa la técnica de Divide y Vencerás para calcular la distancia total entre los elementos correspondientes de las listas. Esta técnica se basa en dividir el problema en subproblemas más pequeños, resolverlos de manera recursiva y combinar los resultados para obtener la solución final. Esto mejora la claridad y escalabilidad del código, especialmente para entradas grandes.
-    • Dividir: El problema principal se divide en dos mitades calculando el punto medio del intervalo de índices.
-    • Resolver: Las distancias se calculan recursivamente para cada mitad.Combinar: Las distancias de las dos mitades se suman para obtener la distancia total.
-Estructura de Datos: Vectores
-Se utilizan vectores (std::vector) para almacenar las dos listas de entrada. Los vectores permiten:
-    • Fácil acceso a los elementos mediante índices.
-    • Uso de la función std::sort para ordenar los elementos de forma eficiente.
-      
-Descripción de la Resolución del Problema
-                           Entrada de Datos:
-Se solicita al usuario el número de elementos en las listas y sus valores.
-Las dos listas son almacenadas en vectores llamados left y right.
-       Ordenación de Listas:
-Ambos vectores se ordenan en orden ascendente utilizando std::sort.
-Esto asegura que las diferencias sean minimizadas al emparejar los elementos correspondientes de las listas.
-       Cálculo de la Distancia Total:
-La función calculateDistance implementa el algoritmo de Divide y Vencerás.
-Si el rango actual contiene un solo elemento, se calcula directamente la diferencia absoluta entre los elementos de left y right.
-Para rangos más grandes, el intervalo se divide en dos mitades, y la función se llama recursivamente para cada mitad.
-Finalmente, se suman las distancias calculadas para las dos mitades.
-       Salida del Resultado:
-El programa imprime la distancia total calculada, que es la suma de las diferencias absolutas entre los elementos correspondientes de las dos listas.
 
-Ventajas del Enfoque
-    • Eficiencia: La técnica de Divide y Vencerás divide el problema en partes más pequeñas, haciendo que sea eficiente incluso para entradas grandes.
-    • Legibilidad: El uso de recursión simplifica la implementación y hace que el código sea más claro y modular.
+Dividir: Se divide el problema en dos mitades calculando el punto medio del intervalo.
+Resolver: Se calcula la distancia para cada mitad recursivamente.
+Combinar: Las distancias de las dos mitades se suman para obtener la distancia total.
+Estructura de Datos: Vectores
+
+Se usan vectores para almacenar las listas, permitiendo un fácil acceso y ordenación eficiente con std::sort.
+Descripción de la Resolución del Problema
+Entrada de Datos:
+El usuario ingresa el número de elementos y los valores de las listas, que se almacenan en vectores left y right.
+
+Ordenación de Listas:
+Ambos vectores se ordenan en orden ascendente para minimizar las diferencias al emparejar los elementos.
+
+Cálculo de la Distancia Total:
+La función calculateDistance implementa la técnica de Divide y Vencerás. Si el rango tiene un solo elemento, se calcula la diferencia directamente; si es mayor, se divide en dos mitades y se resuelve recursivamente.
+
+Salida del Resultado:
+El programa imprime la distancia total, que es la suma de las diferencias absolutas entre los elementos correspondientes de las dos listas.
