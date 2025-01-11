@@ -1,5 +1,14 @@
 Dia 6
+Elección del problema:
+Se ha elegido este problema porque involucra recorrer un laberinto de manera eficiente, marcando las posiciones visitadas y evitando recorrer varias veces las mismas áreas. Es útil para problemas como la navegación en mapas o la búsqueda de caminos.
 
-Se escogió este problema por su semejanza al antiguo problema hecho el año pasado del romba.
+Técnicas y estructuras de datos empleadas:
+Búsqueda en Anchura (BFS): Para recorrer el laberinto de manera ordenada, asegurando que encontramos el camino más corto.
+Tabla Hash: Para almacenar las posiciones visitadas y evitar recorrer las mismas celdas múltiples veces, mejorando la eficiencia.
 
-Este problema se ejecuta a partir de la programación dinámica, este problema se resume en una función que busca y guarda el valor posición del guardia y luego a partir de este punto se inicia la otra función que mueve el guardia hacia delante hasta que se choca con un objeto que se gira a la derecha, después de cada acción repite la acción y si no se encuentra fuera continua con lo suyo y si sale termina la función dando su valor de movimiento, de esta manera el programa terminaría dando el valor mas largo producido. 
+Enfoque de la solución:
+Se lee el laberinto desde un archivo de entrada.
+Se localiza la posición inicial del recorrido.
+Usando BFS, se exploran las posiciones adyacentes y se marcan las celdas visitadas en el mapa.
+Se almacena el estado de las celdas visitadas en una tabla hash para evitar retrocesos.
+Al final, se muestra el camino recorrido y el número total de movimientos realizados.
