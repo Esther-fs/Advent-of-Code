@@ -1,0 +1,22 @@
+Día_13 : Problema de resustado optimo con Programacion dinamica
+Elección del Problema
+Este problema busca llegar a unas cordenadas determinadas con movimientos limitados. Este comprueva todas 
+las posivilidades de movimiento y almacena las provadas por si en casos futuros se repiten a la vez que busca 
+la combinacion de movimientos que permita llegar en el menor numero de ellos.
+
+Gestión de dependencias: Procesar tareas con restricciones de orden.
+Sistemas de control: Verificar relaciones jerárquicas en procesos.
+Procesamiento de reglas en grafos: Encontrar formas válidas de ordenar nodos en un grafo dirigido.
+Técnicas y estructuras de datos empleadas
+
+Grafos dirigidos: Modelan las reglas de precedencia, representados mediante unordered_map<int, vector<int>>.
+Ordenación iterativa: Para reorganizar listas según las restricciones de precedencia.
+Vectores: Almacenan las listas de entrada y las reglas de precedencia.
+Pares clave-valor: Representan relaciones de dependencia entre elementos.
+Enfoque de la solución
+
+Lectura de datos: Se procesan reglas de precedencia y listas de actualizaciones desde un archivo.
+Construcción del grafo: Representa las reglas de precedencia, donde un nodo apunta a sus dependencias.
+Verificación de reglas: Cada lista de actualización se evalúa para comprobar si cumple las restricciones.
+Ordenación de listas inválidas: Las listas que no cumplen las reglas se reordenan iterativamente hasta ajustarse al grafo.
+Cálculo del resultado: Se selecciona el elemento central de las listas reordenadas y se acumula en un resultado final.
