@@ -22,3 +22,9 @@ La función calculateDistance implementa la técnica de Divide y Vencerás. Si e
 
 Salida del Resultado:
 El programa imprime la distancia total, que es la suma de las diferencias absolutas entre los elementos correspondientes de las dos listas.
+
+Comandos de ejecucion:
+Compilar
+  g++ -o Dia1 Dia1.cpp
+Ejecutar
+  ./Prog_D13
