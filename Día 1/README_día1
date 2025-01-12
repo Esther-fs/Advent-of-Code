@@ -27,4 +27,4 @@ Comandos de ejecucion:
 Compilar
   g++ -o Dia1 Dia1.cpp
 Ejecutar
-  ./Prog_D13
+  ./Dia1
