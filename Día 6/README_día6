@@ -12,3 +12,6 @@ Se localiza la posición inicial del recorrido.
 Usando BFS, se exploran las posiciones adyacentes y se marcan las celdas visitadas en el mapa.
 Se almacena el estado de las celdas visitadas en una tabla hash para evitar retrocesos.
 Al final, se muestra el camino recorrido y el número total de movimientos realizados.
+
+Codigo de ejecuccion:
+g++ -o guardtest Day-6.cpp 
