@@ -12,3 +12,6 @@ Limpieza: Se libera la memoria ocupada por los árboles creados.
 
 Resultado:
 Se calcula el número total de "rocas" (hojas generadas) y se imprime junto con los valores almacenados.
+
+Codigo de ejecucion:
+g++ -o rocktest Day_11.cpp
