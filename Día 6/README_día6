@@ -14,4 +14,4 @@ Se almacena el estado de las celdas visitadas en una tabla hash para evitar retr
 Al final, se muestra el camino recorrido y el número total de movimientos realizados.
 
 Codigo de ejecuccion:
-g++ -o guardtest Day-6.cpp 
+g++ -o guardtest Day6.cpp 
