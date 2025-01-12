@@ -14,3 +14,9 @@ Se prueban todas las combinaciones evitando repeticiones.
 De las combinacionees probadas se devielve la que ha necesitado un menor numero de movimientos para llegar a ella.
 Se suman los resultados de todos los problemas poporcionados.
 Al final, se muestra el el numero de tokens y el número total de premios ganados.
+
+Comandos de ejecucion:
+Compilar
+  g++ -o Prog_D13 Prog_D13.cpp
+Ejecutar
+  ./Prog_D13
