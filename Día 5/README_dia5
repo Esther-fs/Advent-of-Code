@@ -18,3 +18,9 @@ Construcción del grafo: Representa las reglas de precedencia, donde un nodo apu
 Verificación de reglas: Cada lista de actualización se evalúa para comprobar si cumple las restricciones.
 Ordenación de listas inválidas: Las listas que no cumplen las reglas se reordenan iterativamente hasta ajustarse al grafo.
 Cálculo del resultado: Se selecciona el elemento central de las listas reordenadas y se acumula en un resultado final.
+
+Comandos de ejecucion:
+Compilar
+  g++ -o Dia5 Dia5.cpp
+Ejecutar
+  ./Dia5
