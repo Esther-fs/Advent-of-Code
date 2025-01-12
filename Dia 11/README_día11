@@ -1,0 +1,14 @@
+Se ha elegido este problema porque implica transformar números a través de un árbol binario, lo que permite explorar conceptos de recursión y manipulación de estructuras jerárquicas. Es útil para situaciones que requieren procesar y transformar datos en formas estructuradas.
+
+Técnicas y Estructuras de Datos Empleadas:
+Árbol Binario: Se usa para representar las transformaciones de cada número. Cada nodo contiene un valor y dos hijos (izquierdo y derecho).
+Recursión: La función Quard transforma los números recursivamente, dividiéndolos o multiplicándolos según las condiciones.
+Recorrido DFS: Se utiliza para recorrer el árbol y contar las hojas, almacenando los valores generados.
+Enfoque de la Solución:
+Entrada de Datos: Los números se leen desde un archivo y se almacenan en un vector.
+Transformación: Cada número pasa por un proceso recursivo en el árbol, donde se divide, multiplica o se transforma en base a su longitud.
+Recorrido: Se recorre el árbol para contar las hojas (rocas) y almacenar los valores en un vector.
+Limpieza: Se libera la memoria ocupada por los árboles creados.
+
+Resultado:
+Se calcula el número total de "rocas" (hojas generadas) y se imprime junto con los valores almacenados.
