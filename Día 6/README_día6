@@ -13,5 +13,8 @@ Usando BFS, se exploran las posiciones adyacentes y se marcan las celdas visitad
 Se almacena el estado de las celdas visitadas en una tabla hash para evitar retrocesos.
 Al final, se muestra el camino recorrido y el número total de movimientos realizados.
 
-Codigo de ejecuccion:
-g++ -o guardtest Dia6.cpp 
+Comandos de ejecucion:
+Compilar
+  g++ -o guardtest Dia6.cpp 
+Ejecutar
+  ./guardtest
